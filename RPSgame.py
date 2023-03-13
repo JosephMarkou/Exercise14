@@ -25,7 +25,7 @@ import random
 
 options = {"r": "rock", "p": "paper", "s": "scissors"}
 
-user = input("Choose rock (r), paper (p), or scissors (s): ")
+user = input("Please type the first letter: rock (r), paper (p), or scissors (s): ")
 computer_choice = random.choice(list(options.keys()))
 
 print("You have chosen", options[user])
